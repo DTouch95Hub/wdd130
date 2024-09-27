@@ -1,4 +1,4 @@
-nav{
+nav {
 background-color: aquamarine;
 padding: 10px;
 }
@@ -9,10 +9,10 @@ nav a {
     padding: 20px;
 }
 
-h1{
+h1 {
     color: steelblue;
 }
-img{
+img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
