@@ -1,10 +1,10 @@
 nav {
-    background-color: darkblue;
+    background-color: tan;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
@@ -32,10 +32,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid orchid;
+    border: 1px solid lightgreen;
     padding: 1rem;
-    background-color: lightcoral;
-    color: cornflowerblue;
+    background-color: lightslategray;
+    color: black;
     text-align: center;
 }
 
