@@ -19,8 +19,8 @@ tfoot {
 }
 
 thead th {
- background-color: #000;
- color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 th,
@@ -43,3 +43,4 @@ tfoot th {
 
 tfoot td {
   font-weight: bold;
+}
