@@ -252,3 +252,100 @@ footer .socialmedia img {
   border: none;
   cursor: pointer;
 }
+/* Call to Action */
+.cta {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: var(--heading-font);
+  font-size: 1.5rem;
+}
+
+.cta .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background-color: var(--accent1-color);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta .btn:hover {
+  background-color: #e65c00;
+}
+
+/* Grid Section */
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.grid-item {
+  background-color: #fdfdfd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-family: var(--body-font);
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.grid-item h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.newsletter h2 {
+  font-family: var(--heading-font);
+}
+
+.newsletter form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--body-font);
+}
+
+.newsletter button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--accent1-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: var(--body-font);
+}
+
+.newsletter button:hover {
+  background-color: #e65c00;
+}
