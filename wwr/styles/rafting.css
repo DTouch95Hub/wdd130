@@ -350,13 +350,6 @@ footer .socialmedia img {
   background-color: #e65c00;
 }
 
-.cta {
-  background-color: #0077b6; /* Deep blue */
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-
 .trip-descriptions {
   display: flex;
   justify-content: space-around;
@@ -400,4 +393,22 @@ footer .socialmedia img {
   padding: 1rem;
   border: 1px solid #ccc;
   text-align: center;
+}
+
+.action {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #ff6600; /* Accent1-color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--body-font);
+  transition: background-color 0.3s ease;
+}
+
+.action:hover {
+  background-color: #e65c00; /* Slightly darker orange */
 }
