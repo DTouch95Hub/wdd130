@@ -290,7 +290,7 @@ footer .socialmedia img {
   background-color: #fdfdfd;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   font-family: var(--body-font);
 }
 
@@ -348,4 +348,56 @@ footer .socialmedia img {
 
 .newsletter button:hover {
   background-color: #e65c00;
+}
+
+.cta {
+  background-color: #0077b6; /* Deep blue */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.trip-descriptions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.trip-card {
+  width: 30%;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+  width: 100%;
+  height: auto;
+}
+
+.trip-card h2 {
+  margin: 1rem;
+}
+
+.trip-card p {
+  margin: 0 1rem 1rem;
+}
+
+.trip-table {
+  padding: 2rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
 }
