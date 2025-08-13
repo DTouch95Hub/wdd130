@@ -274,7 +274,7 @@ footer .socialmedia img {
 }
 
 .cta .btn:hover {
-  background-color: #e65c00;
+  background-color: var(--accent1-color);
 }
 
 /* Grid Section */
@@ -347,7 +347,7 @@ footer .socialmedia img {
 }
 
 .newsletter button:hover {
-  background-color: #e65c00;
+  background-color: var(--accent1-color);
 }
 
 .trip-descriptions {
@@ -399,7 +399,7 @@ footer .socialmedia img {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75rem 2rem;
-  background-color: #ff6600; /* Accent1-color */
+  background-color: var(--secondary-color); /* Secondary color */
   color: white;
   border: none;
   border-radius: 5px;
@@ -409,6 +409,6 @@ footer .socialmedia img {
   transition: background-color 0.3s ease;
 }
 
-.action:hover {
-  background-color: #e65c00; /* Slightly darker orange */
-}
+/* .action:hover {
+  background-color: var(--accent1-color)
+} */
